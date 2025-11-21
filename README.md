@@ -8,7 +8,21 @@ Half learning, half experimenting, and occasionally making something that actual
 
 ## 🚀 Relevant Projects
 
-### 1. Review Filtering Model  
+### 1. Neural Grammatical Error Correction (GEC) Study 
+[![Read the Paper](https://img.shields.io/badge/📄-Read%20the%20Paper-orange?style=flat&logoColor=white)](./path/to/your/paper.pdf)
+
+**Tech Stack:** Python, PyTorch, Hugging Face Transformers, ERRANT, Pandas, LaTeX
+
+* Conducted a **comparative analysis** of Transformer architectures (T5, Flan-T5, BART) for sequence-to-sequence error correction.
+* Implemented a **two-stage fine-tuning curriculum**:
+    * **Domain Adaptation:** Trained on 1M+ noisy sentences (Lang-8).
+    * **Specialization:** Refined on high-quality gold corpora (NUCLE, FCE, W&I).
+* Developed an **Edit-based System Combination (ESC)** to ensemble model outputs, leveraging the complementary strengths of precision-focused (T5) and recall-oriented (BART) models.
+* Achieved a top **F0.5 score of 68.97** on the BEA-2019 benchmark with T5-base, outperforming the significantly larger BART-large model.
+
+---
+
+### 2. Review Filtering Model  
 **Tech Stack:** Jupyter Notebook, Apify API, Gemini API  
 - Built a **multi-classification model** to classify Google reviews into: *ad, spam, irrelevant, rant_no_visit, relevant*.  
 - Fine-tuned **DistilBERT** to improve review filtering efficiency.  
@@ -17,7 +31,7 @@ Half learning, half experimenting, and occasionally making something that actual
 
 ---
 
-### 2. Travel Scout  
+### 3. Travel Scout  
 **Tech Stack:** React Native, DeepSeek API, TypeScript, Python  
 - Developed during a hackathon to provide **personalised travel planning**.  
 - Features:  
@@ -28,7 +42,7 @@ Half learning, half experimenting, and occasionally making something that actual
 
 ---
 
-### 3. Automated Rostering System  
+### 4. Automated Rostering System  
 **Tech Stack:** Excel VBA  
 - Semi-automated rostering system.  
 - Features:  
@@ -39,7 +53,7 @@ Half learning, half experimenting, and occasionally making something that actual
 
 ---
 
-### 4. NUSell  
+### 5. NUSell  
 **Tech Stack:** React Native, Express.js, Node.js, Axios, MongoDB, JavaScript, eBay API  
 - Full-stack marketplace app.
 - Key features:  
