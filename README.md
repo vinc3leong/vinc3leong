@@ -9,7 +9,7 @@ Half learning, half experimenting, and occasionally making something that actual
 ## 🚀 Relevant Projects
 
 ### 1. Neural Grammatical Error Correction (GEC) Study 
-[![Read the Paper](https://img.shields.io/badge/📄-Read%20the%20Paper-orange?style=flat&logoColor=white)](G08_report.pdf)
+[![Read the Paper](https://img.shields.io/badge/📄-Read%20the%20Paper-orange?style=flat&logoColor=white)]([G08_report.pdf](https://github.com/vinc3leong/Grammatical-Error-Correction/blob/3598c40d15a3a0fb4939c84450e608cca262d200/G08_report.pdf))
 
 **Tech Stack:** Python, PyTorch, Hugging Face Transformers, ERRANT, Pandas, LaTeX
 
