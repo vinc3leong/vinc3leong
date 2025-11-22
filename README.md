@@ -17,7 +17,7 @@ Half learning, half experimenting, and occasionally making something that actual
 * Implemented a **two-stage fine-tuning curriculum**:
     * **Domain Adaptation:** Trained on 1M+ noisy sentences (Lang-8).
     * **Specialization:** Refined on high-quality gold corpora (NUCLE, FCE, W&I).
-* Developed an **Edit-based System Combination (ESC)** to ensemble model outputs, leveraging the complementary strengths of precision-focused (T5) and recall-oriented (BART) models.
+* Implemented an existing **Edit-based System Combination (ESC)** to ensemble model outputs, leveraging the complementary strengths of precision-focused (T5) and recall-oriented (BART) models.
 * Achieved a top **F0.5 score of 68.97** on the BEA-2019 benchmark with T5-base, outperforming the significantly larger BART-large model.
 
 ---
